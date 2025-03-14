@@ -13,7 +13,7 @@ This team member reviews and approves the work of the other stakeholders and is 
 The model owner understands the use case and makes the final decision about the model's usage.
 This role aligns with the NIST AI RMF Playbook guidelines in Measure [2.8](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Measure#Measure%202.8).
 
-> <br></br>
+> Sophia Rowland
 > <br></br>
 > <br></br>
 
