@@ -11,91 +11,54 @@ The following documentation helps define the project in a centralized location.
 **Model owner**: Document the current state of the project. 
 
 * [ ] Not started
-* [ ] In progress
+* [x] In progress
 * [ ] In production
 * [ ] Depreciated or archived
 
 If applicable, add any additional details: 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> Project documentation in progress. Weekly stakeholder meetings scheduled. 
 
 ### 2.1.2 Document purpose and usage
 **Model owner**: Document the purpose of the modeling project, including model usage, scope, assumptions, limitations, and potential benefits and harms in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1), [3.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.2), and [3.3](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.3).
 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> This project aims to reduce risk and decrease costs for our future loan portfolio. The machine learning model will predict an applicant's probabilty of default after their application is submitted. With this probability and other characteristics about the borrower, the AI system will determine to accept or decline the loan, what terms to offer, and if declined, provide an actionable explaination. We assume that the past data about our loan applicants can be used to determine risk and probabilities of default for future borrowers. We do not know if those whose loans were declined in the past would have defaulted or paid their loan in full. 
 
 ### 2.1.3 Document end users
 **Model owner**: Document end users and their expected usage in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1).
 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> End users will be loan applicants using our website to apply. 
 
 ### 2.1.4 Document baseline metrics
 **Model owner**: Document the baseline metrics or processes used to measure the success of the current decisioning system.
 A decisioning system can be a model, a database, or a process of communication and knowledge sharing.
 Consult the *NIST AI RMF Playbook* guidelines in Map [3.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.1).
 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> As of March 2025, 10% of our borrowers defaault on their loan within 12 months, costing on average $50,000 in losses each year. 
 
 ### 2.1.5 Document feedback strategy
 **Model owner**: Document the feedback strategy.
 The strategy should outline how users of the AI system will provide feedback to developers and deployers of the AI system in accordance to the *NIST AI RMF Playbook* guidelines in Map [5.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%205.2).
 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> After the applicant is delivered their decision, there will be a link to report a problem. Users can use this link to appeal the system's decision or ask for a manual review.  
 
 ### 2.1.6 Document performance metrics
 **Model owner**: Document preferred performance metrics, including fit statistics.
 Fit statistics are statistical values that assess how well a model fits a set of data.
 Metrics are used to evaluate model performance.
 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> False Positive Rate
+> Misclassification Rate
+> F1 Score
+> Decline Rate
+> Montly Portfolio Revenue. 
+
 
 ### 2.1.7 Approve documentation?
 **Model owner**: Review and confirm your documentation.
 
 Did you provide all necessary documentation?
 
-* [ ] Yes
+* [x] Yes
 * [ ] No
 
 If the answer is no, please list what is missing and re-assign [step 2.1](#21-model-owner-prepares-documentation) to yourself for completion.
@@ -117,14 +80,11 @@ If the answer is no, please list what is missing and re-assign [step 2.1](#21-mo
 Negative impacts include potential reduction in the well-being or financial security of individuals, communities, organizations, society, and the planet.
 Legal risks might include risks of infringement for a third party's intellectual property or other rights.
 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> Revenue losses if good borrowers are declined.
+> Increased costs if bad borrowers are approved. 
+> Reputational risks if our model is biases. 
+> Potential PII leak if data is not properly secured. 
+
 
 ### 2.2.2 Document organizational risk tolerance
 **Model risk owner**: Document the organization's risk tolerance and criteria for action in accordance with the *NIST AI RMF Playbook* guidelines in Map [3.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.2).
@@ -132,14 +92,7 @@ Risk tolerance defines how acceptable various types of risk are according to the
 Risk types include financial risk, reputational risk, and potential harm to individuals present within the data or subject to the AI system.
 Criteria for action describe thresholds or events that would lead to an organization taking risk management measures, including changes to the model or the decision to deploy the model.
 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> Our current default rate is too high and exceeds industory average! We need to do something fast. 
 
 ### 2.2.3 Approve documentation?
 **Model owner**: Review documentation supplied by the model risk owner.
@@ -147,19 +100,11 @@ Criteria for action describe thresholds or events that would lead to an organiza
 Did the model risk owner provide all necessary documentation?
 
 * [ ] Yes
-* [ ] No
+* [x] No
 
 If the answer is no, please list what is missing and re-assign [step 2.2](#22-model-risk-owner-prepares-documentation) to the model risk owner for completion.
 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> Please provide metrics and measures for risk tolerance. 
 
 ## 2.3 Model engineer prepares documentation
 
@@ -167,33 +112,19 @@ If the answer is no, please list what is missing and re-assign [step 2.2](#22-mo
 **Model engineer**: Document data processes throughout the AI life cycle.
 This could include how data is prepared to be passed to the AI system, how data is passed to the system, and how the output is returned and used by other systems in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1) and [1.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.2).
 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> Data from the application form in the website is sent in parallel to the applicant database and to the model via REST API. The AI system will spit out an answer that will return to the website via REST API and shown to the user. The answer will be written back to the database with the user's application data. 
 
 ### 2.3.2 Document the deployment location
 **Model engineer**: Document the deployment location and all external connections.
 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> The model and decisioning logic will be deployed within a container to the Azure Kubernetes Service, where we will leverage autoscaling to meet traffic needs. Data will be stored in our Azure Data Lake. Data to be scored will be sent to the model via REST API. 
 
 ### 2.3.3 Approve documentation?
 **Model owner**: Review documentation supplied by the model engineer.
 
 Did the model engineer provide all necessary documentation?
 
-* [ ] Yes
+* [x] Yes
 * [ ] No
 
 If the answer is no, please list what is missing and re-assign [step 2.3](#23-model-engineer-prepares-documentation) to the model engineer for completion.
