@@ -14,8 +14,6 @@ The model owner understands the use case and makes the final decision about the 
 This role aligns with the NIST AI RMF Playbook guidelines in Measure [2.8](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Measure#Measure%202.8).
 
 > Sophia Rowland
-> <br></br>
-> <br></br>
 
 ## 1.2 Identify stakeholders
 **Model owner**: Identify relevant stakeholders. One individual might perform multiple roles, depending on the structure of your organization.
@@ -23,34 +21,24 @@ This role aligns with the NIST AI RMF Playbook guidelines in Measure [2.8](https
 Identify the **model developers** and provide their contact information.
 The model developer is the data scientist who develops the model.
 
-> <br></br>
-> <br></br>
-> <br></br>
+> Sophia A. Rowland
 
 Identify the **model engineers** and provide their contact information.
 The model engineer is responsible for deploying the model.
 
-> <br></br>
-> <br></br>
-> <br></br>
+> Alex Rowland
 
 Identify the **model risk owners** and provide their contact information.
 The model risk owner identifies, manages, and documents model risks.
 
-> <br></br>
-> <br></br>
-> <br></br>
+> Sophia Alex
 
 Identify the **data engineers** and provide their contact information.
 The data engineer compiles and prepares the data for modeling.
 
-> <br></br>
-> <br></br>
-> <br></br>
+> Alexandria R. 
 
 Identify the **domain experts** and provide their contact information.
 The domain expert is available to address business and domain questions.
 
-> <br></br>
-> <br></br>
-> <br></br>
+> S. Rowland
