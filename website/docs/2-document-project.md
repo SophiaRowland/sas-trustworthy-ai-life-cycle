@@ -144,14 +144,7 @@ If the answer is no, please list what is missing and re-assign [step 2.3](#23-mo
 ### 2.4.1 Document bias assessment variables
 **Data engineer**: Document variables that will be used to identify or assess bias in the data or models. Bias assessment variables help identify unacceptable, and systematic differences between subpopulations.
 
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
-> <br></br>
+> Gender, Sex, and Age. 
 
 ### 2.4.2 Document the time period covered
 **Data engineer**: Document the time period covered for both the collection and creation of the data.
